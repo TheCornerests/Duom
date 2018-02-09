@@ -1,0 +1,10 @@
+body{
+	color:black;
+	background-image:url("../img/reference.jpg");
+	background-attachment: fixed;
+	}
+
+#principal{
+	font-size: 40px;
+	color:green;
+}

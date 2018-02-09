@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Lenguaje de marcas</title>
+	<link rel="stylesheet" type="text/css" href="estilos/layout.css">
+	<link rel="stylesheet" type="text/css" href="estilos/contacte.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="validator.js"></script>
+	
+
+<script type="text/javascript"> 
+var img = false; 
+function cambiar() { 
+  document.getElementById("logo").src= (img) ? 'img/bitcoin.png' : 'img/logo2.jpg'; 
+  img = !img; 
+} 
+
+</script>
+
+</head>
+<body>
+
+	<!-----Cabezera------>
+	<header>
+		<div id="cabezera">
+			
+			
+				<a href="#" onclick="cambiar();return false"> 
+					<img src="img/bitcoin.png" alt="imagen coin" id="logo"> 
+				</a>  
+					
+						
+		</div>
+
+	<!-----Menu-------->
+
+		
+			<div id="listamenu">
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="contacte.html">CONTACTO</a></li>
+					<li><a href="referencies.html">REFERENCIAS</a></li>
+					
+				</ul>
+			</div>
+	
+	</header>
+	<!---BOTON VOLVER INICIO---->
+
+	<div id="botoninicio">
+		<a href="#">UP</a>
+	</div>
+
+
+	<!-----Cuerpo-------->
+<h1 id="h1">FORMULARIO DE CONTACTO</h1>
+	<h2>En esta pagina podrás enviarnos tus intereses y dudas</h2>
+    <p id="explica">Espacio en el cual podras expresar tus dudas, reclamaciones, sugerencias, gustos y demas para que nosotros podamos conocerte mejor y ofrecerte un servicio mas personalizado</p>
+
+
+<!-----En los radio pongo el mismo name para todos, y el validador me sigue diciendo que deben de compartir el mismo name-------->
+
+
+
+	<section id="form">
+	
+	<form action="formulario.html" method="get">
+  <table>
+    <tr>
+      <td><label for="nombre">Nombre</label></td>
+      <td><input type="text" id="nombre" name="nombre" placeholder="Ejemplo.. Juanito"></td>
+      <td><label for="apellido">Apellido</label></td>
+      <td><input type="text" id="apellido" name="apellido" placeholder="Ejemplo.. Gomez Rodriguez"></td>
+    </tr>
+    <tr>
+      <td><label for="edad">Edad</label></td>
+      <td colspan="2"><input type="number" id="edad" name="edad" placeholder="Ejemplo.. 30"></td>
+    </tr>
+     <tr>
+      <td><label for="email">Email</label></td>
+      <td colspan="2"><input type="email" id="email" name="email" placeholder="Ejemplo.. juan@gmail.com"></td>
+    </tr>
+    <tr>
+      <td colspan="3">Indica tu genero</td>
+    </tr>
+    <tr>
+      <td><label for="mujer">Mujer</label></td>
+      <td colspan="2"><input type="radio" name="h" value="mujer" id="mujer"></td>
+    </tr>
+     <tr>
+      <td><label for="hombre">Hombre</label></td>
+      <td colspan="2"><input type="radio" name="h" value="hombre" id="hombre"  ></td>
+    </tr>
+     <tr>
+      <td><label for="otros">Otros</label></td>
+      <td colspan="2"><input type="radio" name="h" value="otro" id="otros"  checked></td>
+    </tr>
+     <tr>
+      <td colspan="3">Idioma de respuesta</td>
+    </tr>
+      <tr>
+      <td><label for="castellano">Castellano</label></td>
+      <td colspan="2"><input type="checkbox" id="castellano" name="a" value="Castellano"></td>
+    </tr>
+      <tr>
+      <td><label for="catala">Català</label></td>
+      <td colspan="2"><input type="checkbox" id="catala" name="a" value="catalan" checked></td>
+    </tr>
+      <tr>
+      <td><label for="ingles">Ingles</label></td>
+      <td colspan="2"><input type="checkbox" id="ingles" name="a" value="ingles"></td>
+    </tr>
+      <tr>
+      <td><label for="italiano">Italiano</label></td>
+      <td colspan="2"><input type="checkbox" id="italiano" name="a" value="italiano"></td>
+
+    </tr>
+      <tr>
+      <td><label for="frances">Frances</label></td>
+      <td colspan="2"><input type="checkbox" id="frances" name="a" value="frances"></td>
+    </tr>
+      <tr>
+      <td><label for="mas">Deseas mas informacion? Explicanos tus dudas</label></td>
+      <td colspan="2"><textarea rows="12" cols="40" id="mas" placeholder="Tengo duda acerca de.."></textarea></td>
+    </tr>
+      <tr>
+        <td colspan="2"><label for="algomas">Quieres hacer algo mas?</label></td>
+        <td><select id="algomas" name="algomas">
+              <option value="Reclamaciones">Reclamaciones</option>
+              <option value="Sugerencias">Sugerencias</option>
+              <option value="Otros" selected="selected">Otros</option>
+
+    		    </select>
+		    </td>
+    
+      </tr>
+      
+  </table>
+
+  	<input type="submit" name="ENVIAR" value="Envia el formulario">
+
+</form>
+
+            <h3>Gracias por confiar en nosotros!</h3>
+		
+	</section>
+
+    	
+<!-----Pie---->
+
+	<footer>
+
+		<p>Sigue todas las criptomonedas en sus redes sociales!</p>
+		
+		<ul>
+			<li><a href="https://www.facebook.com/" target="_blank"><img src="img/iconoface.png" alt="imagen facebook"></a></li>
+			<li><a href="https://www.instagram.com/?hl=es" target="_blank"><img src="img/iconoinsta.png" alt="imagen instagram"></a></li>
+			<li><a href="https://www.youtube.com/" target="_blank"><img src="img/iconoyoutube.png" alt="imagen youtube"></a></li>
+		</ul>
+
+		<p id="firma">Albert Fernandez Garcia 2018</p>
+	
+	</footer>
+
+
+
+</body>
+
+	
+</html>

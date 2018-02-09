@@ -1,0 +1,60 @@
+	#inicio h1{
+		font-size: 90px;
+		color:#FFC800;
+		text-align:center;
+	}
+
+	#inicio{
+		background-image:url("../img/bitback.jpg");
+		background-attachment: fixed;
+		
+
+	}
+		
+	#bitcoin{
+		
+		background-image:url("../img/bitback2.jpg");
+		background-repeat: no-repeat;
+		
+		
+	}
+	#ethereum{
+		
+		background-image:url("../img/etherback.jpg");
+		background-position:65% 75%;
+		background-attachment: fixed;
+		
+
+		
+		
+	}
+	
+	#litecoin{
+		
+		background-image:url("../img/liteback.jpg");
+		background-position:65% 75%;
+		
+	}
+	
+	#ripple{
+		background-image:url("../img/rippleback.jpg");
+		background-attachment: fixed;
+		
+	}
+
+	#iota{
+		color:white;
+		background-image:url("../img/iotaback.jpg");
+		background-position:65% 75%;
+		clear: both;
+		
+	}
+
+	
+	#ok{
+		width:200px; 
+		height:200px;
+		position:relative;
+		float: right;
+		z-index: 0;
+	}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Lenguaje de marcas</title>
+	<link rel="stylesheet" type="text/css" href="estilos/layout.css">
+	<link rel="stylesheet" type="text/css" href="estilos/referencies.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="validator.js"></script>
+	
+
+<script type="text/javascript"> 
+var img = false; 
+function cambiar() { 
+  document.getElementById("logo").src= (img) ? 'img/bitcoin.png' : 'img/logo2.jpg'; 
+  img = !img; 
+} 
+
+</script>
+
+</head>
+<body>
+
+	<!-----Cabezera------>
+	<header>
+		<div id="cabezera">
+			
+			
+				<a href="#" onclick="cambiar();return false"> 
+					<img src="img/bitcoin.png" alt="imagen coin" id="logo"> 
+				</a>  
+					
+						
+		</div>
+
+	<!-----Menu-------->
+
+		
+			<div id="listamenu">
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="contacte.html">CONTACTO</a></li>
+					<li><a href="referencies.html">REFERENCIAS</a></li>
+					
+				</ul>
+			</div>
+		
+	</header>
+	<!---BOTON VOLVER INICIO---->
+
+	<div id="botoninicio">
+		<a href="#">UP</a>
+	</div>
+
+
+
+
+
+	<!-----Cuerpo-------->
+	<section id="referencia">
+
+		<h1 id="principal">Página de referencias</h1>
+			<h2>En esta página muestro los enlaces de las webs que he utilizado para recoger la información además de otras paginas de interés</h2>
+				<p>La informacion la he buscado practicamente toda de la Wikipedia , asi que también mostraré algunos enlaces importantes y utiles en el mundo de las criptomonedas</p>
+
+				<ul>
+					<li><a href="https://es.wikipedia.org/wiki/Bitcoin" target="_blank">Informacion sobre Bitcoin</a></li>
+					<li><a href="https://es.wikipedia.org/wiki/Ethereum" target="_blank">Informacion sobre Ethereum</a></li>
+					<li><a href="https://es.wikipedia.org/wiki/Litecoin" target="_blank">Informacion sobre Litecoin</a></li>
+					<li><a href="https://es.wikipedia.org/wiki/Ripple" target="_blank">Informacion sobre Ripple</a></li>
+					<li><a href="https://es.wikipedia.org/wiki/IOTA_(protocolo)" target="_blank">Informacion sobre IOTA</a></li>
+					<li><a href="https://coinmarketcap.com/" target="_blank">Capitalización de mercado</a></li>
+					<li><a href="https://es.cointelegraph.com/" target="_blank">Informacion general actual</a></li>
+
+				</ul>
+				
+	
+				
+			
+		
+	</section>
+
+	
+<!-----Pie---->
+
+	<footer>
+		<p>Sigue todas las criptomonedas en sus redes sociales!</p>
+		
+		<ul>
+			<li><a href="https://www.facebook.com/" target="_blank"><img src="img/iconoface.png" alt="imagen facebook"></a></li>
+			<li><a href="https://www.instagram.com/?hl=es" target="_blank"><img src="img/iconoinsta.png" alt="imagen instagram"></a></li>
+			<li><a href="https://www.youtube.com/" target="_blank"><img src="img/iconoyoutube.png" alt="imagen youtube"></a></li>
+		</ul>
+
+		<p id="firma">Albert Fernandez Garcia 2018</p>
+	
+	</footer>
+
+
+
+</body>
+
+	
+</html>

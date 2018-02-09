@@ -1,0 +1,183 @@
+body{
+		background-color:white;
+		margin:0px;
+		padding:0px;
+		font-family:"verdana";
+		
+		
+	}
+	
+	
+
+	/******Cabezera*******/
+
+	#cabezera{
+
+	
+		background-attachment:fixed;
+		height:0px;
+		
+	}
+
+	#logo{
+		position:absolute;
+		float: left;
+		clear:both;
+		width: 200px;
+    	height: 200px;
+    	z-index: 1;
+    	position: fixed;
+    	
+}
+
+	#logo:hover {
+   		width: 300px;
+    	height: 300px;
+    	z-index: 1;
+    	
+}
+	
+
+	
+
+	
+	/************MENU***********/
+	
+
+	nav{
+		background-color:black;
+		padding:10px;
+		text-align:center;
+
+
+	}
+
+	#listamenu{
+		top:0px;
+		position: fixed;
+		text-align:center;
+		display: inline;
+		width: 100%;
+		background-color:black;
+		
+	}
+	
+
+	#listamenu ul li{
+		display:inline-block;
+
+
+		
+		
+	}	
+	
+	#listamenu ul li a{
+		text-decoration:none;
+		padding:20px;
+		margin-left:20px;
+		text-transform:uppercase;
+		color:#FFC800;
+		font-weight:bold;
+
+
+		
+	}
+	#listamenu ul li a:hover{
+		
+		color:white;
+		
+	}
+	
+	/**********CUERPO************/
+	
+	#botoninicio a{
+		
+		right: 3%;
+		top:85%;
+		position:fixed;
+		border: solid 2px black;
+		text-decoration: none;
+		padding: 10px;
+		border-radius: 40px;
+		background-color: white; 
+		color:black;
+		font-size:20px;
+
+		
+	}
+
+	#botoninicio a:hover{
+		background-color: black; 
+		color:white;
+
+	}
+
+	section p{
+		font-size: 25px;
+	}
+
+	section{
+		
+		padding:200px;
+		height:500px;
+		
+	}
+
+	
+
+	/*********PIE*************/
+	
+	footer{
+		background-color:black;
+		padding:30px;
+		text-align:center;
+		color:#FFC800;
+		height:220px;
+	}
+	
+	
+	
+	footer ul li{
+		display:inline;
+	}
+	
+	footer ul li a{
+	display:inline;
+	text-decoration:none;
+	color:black;
+	
+	}
+	footer p{
+		font-weight:bold;
+		font-size:20px;
+		margin-top:70px;
+		
+	}
+
+	#firma{
+		font-weight:bold;
+		font-size:20px;
+		margin-top:30px;
+		margin-bottom:50px;
+		color:white;
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
